@@ -12,7 +12,8 @@ const config = {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
+	]
 };
 
 module.exports = config;
